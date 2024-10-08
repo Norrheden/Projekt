@@ -1,0 +1,41 @@
+@font-face {
+    font-family: inter;
+    src: url(material/Inter.ttf);
+}
+body {
+    font-family: inter;
+    margin: 0;
+}
+
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #999999;
+
+}
+#nav-vänster {
+    display: flex;
+    gap: 10px;
+}
+#nav-höger {
+    display: flex;
+    gap: 50px;
+}
+#nav-bild {
+    background-image: url(material/brand.svg);
+    background-position: center;
+    background-size: 100%;
+    width: 120px;
+    margin-right: 40px;
+}
+.ner-pil-bild {
+    background-image: url(material/nav-caret.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10px;
+    margin-right: 20px;
+}
