@@ -130,15 +130,18 @@ main {
 #capgemini-right {
     margin-left: 100px;
 }
-#fetch-h2 {
+
+.title-h2 {
     font-size: 26px;
     font-weight: 650;
     margin: 0;
+    max-width: 50%;
 }
-#fetch-p {
+.text-p {
     color: #7f7f7f;
+    max-width: 50%;
 }
-#barkies {
+.website-img {
     object-fit: contain;
     height: 100%;
     width: 100%;
@@ -146,28 +149,29 @@ main {
     margin-top: 35px;
 
 }
-#barky-helps {
+.author-text {
     font-size: 40px;
     color: #999999;
     text-align: center;
 }
 
-#face-01 {
+.face {
     object-fit: contain;
     width: 50px;
 
 }
-#face-01-container {
+.face-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 70px;
 }
-.barkley-woofington-text{
+.face-text{
     margin: 0;
     margin-bottom: 7px;
     margin-left: 7px;
 
 }
-#barkley-woofington-p {
+.face-p {
     color: #999999;
     font-size: 15px;
 }
