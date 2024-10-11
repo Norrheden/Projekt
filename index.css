@@ -252,6 +252,9 @@ main {
     color: #121212;
     font-weight: 450;
 }
+.black-link:hover {
+    color: #087fe7;
+}
 #why-dogs-love-us-container {
     display: flex;
 }
@@ -267,3 +270,28 @@ main {
 #g2-p {
     font-size: 16px;
 }
+#statistik-container {
+    display: flex;
+    margin-top: 40px;
+}
+.procent-box {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+.procent-h2 {
+    font-size: 45px;
+    margin: 0;
+    color: #7f7f7f;
+}
+.procent-p {
+    font-size: 14px;
+    color: #999999;
+    margin: 5px 0 0 0;
+
+}
+.border-box {
+    border-right: 1px solid #999999;
+}
+
+h
