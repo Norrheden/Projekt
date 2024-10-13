@@ -165,13 +165,12 @@ main {
     justify-content: center;
     margin-bottom: 70px;
 }
-.face-text{
+.author-name{
     margin: 0;
-    margin-bottom: 7px;
-    margin-left: 7px;
 
 }
-.face-p {
+.author-p {
+    margin: 0;
     color: #999999;
     font-size: 15px;
 }
@@ -306,4 +305,45 @@ main {
 }
 #try-barky-today-h2 {
     margin: 70px 0 10px 0;
+}
+.app-img {
+    object-fit: contain;
+    height: 100%;
+    width: 7%;
+}
+#barky-footer-logo {
+    background-image: url(material/brand.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 75px;
+}
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    padding: 60px 0 60px 0;
+    gap: 10px;
+}
+li {
+    list-style: none;
+}
+footer {
+    border-top: 1px solid #999999;
+    margin: 0 15px 0 15px;
+}
+li, h4 {
+    margin-bottom: 10px;
+}
+#we-do-not {
+    margin-top: 65px;
+}
+.link-footer {
+    text-decoration: none;
+    color: #999999;
+}
+.link-footer:hover {
+    text-decoration: underline;
 }
