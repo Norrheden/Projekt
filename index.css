@@ -272,7 +272,7 @@ main {
 }
 #statistik-container {
     display: flex;
-    margin-top: 40px;
+    margin: 40px 0 70px 0;
 }
 .procent-box {
     flex-grow: 1;
@@ -294,4 +294,16 @@ main {
     border-right: 1px solid #999999;
 }
 
-h
+#try-barky {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#get-started-for-free-p {
+    color: #999999;
+    font-size: 15px;
+    margin: 10px 0 20px 0;
+}
+#try-barky-today-h2 {
+    margin: 70px 0 10px 0;
+}
