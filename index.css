@@ -105,21 +105,19 @@ main {
 }
 #teams-hero-container {
     display: flex;
-    height: 240px;
+    flex-direction: row-reverse;
     margin-top: 100px;
     padding-bottom: 100px;
     border-bottom: 1px solid #999999;
     
 }
 #teams-hero-h1 {
-    width: 450px;
     font-size: 53px;
     font-weight: 650;
 }
 #teams-hero-p {
-    width: 380px;
     color: #7f7f7f;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     
@@ -144,11 +142,10 @@ main {
     font-size: 26px;
     font-weight: 650;
     margin: 0;
-    max-width: 50%;
+    
 }
 .text-p {
     color: #7f7f7f;
-    max-width: 50%;
     line-height: 25px;
 }
 .website-img {
@@ -197,10 +194,10 @@ main {
 }
 
 #grey-box {
-    width: 550px;
     background-color: #f4f4f4;
     margin: 60px auto 0 auto;
     padding: 20px;
+    width: 500px;
 
 }
 .features-container {
@@ -331,6 +328,7 @@ main {
     width: 160px;
     height: 75px;
 }
+
 #footer-container {
     max-width: 1200px;
     margin: 0 auto 0 auto;
@@ -360,7 +358,10 @@ li, h4 {
     text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 601px) {
+    body {
+        overflow-x: hidden;
+    }
     #nav-container {
         border-bottom: none;
         position: relative;
@@ -371,5 +372,52 @@ li, h4 {
     span {
         display: block;
     }
+    main {
+        max-width: 570px;
+    }
+    #teams-hero-container {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #teams-hero-img {
+        object-fit: contain;
+        width: 500px;
+        height: 100%;
+    }
+    .title-h2 {
+        text-align: center;
+
+    }
+    .text-p {
+        text-align: center;
+    }
+    .author-text {
+        font-size: 24px;
+    }
+    #e-p-d-container {
+        display: block;
+    }
+    #product {
+        border-left: none;
+        border-right: none;
+        margin: 50px 0 50px 0;
+        padding: 0 0
+    }
+    #why-dogs-love-us-container {
+        display: block;
+    }
+    #statistik-container {
+        display: block;
+    }
+    .procent-box {
+        margin: 30px;
+        border-right: none;
+    }
     
+    #footer-container {
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
 }
