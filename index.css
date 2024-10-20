@@ -6,7 +6,6 @@ body {
     font-family: inter;
     margin: 0;
 }
-
 #nav-container {
     display: flex;
     justify-content: space-between;
@@ -92,7 +91,6 @@ main {
     max-width: 1000px;
     margin: 0 auto 0 auto;
 }
-
 .teams-hero-box {
     flex-grow: 1;
     flex-basis: 0;
@@ -106,7 +104,7 @@ main {
 #teams-hero-container {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 100px;
+    margin-top: 150px;
     padding-bottom: 100px;
     border-bottom: 1px solid #999999;
     
@@ -114,12 +112,14 @@ main {
 #teams-hero-h1 {
     font-size: 53px;
     font-weight: 650;
+    margin-bottom: 10px;
 }
 #teams-hero-p {
     color: #7f7f7f;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
+    margin-top: 0;
     
 }
 #company-logo-container {
@@ -132,10 +132,19 @@ main {
     object-fit: contain;
     width: 90px;
     height: 50px;
-    margin-left: 40px
 }
-#capgemini-right {
-    margin-left: 100px;
+
+#top {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .title-h2 {
@@ -147,6 +156,8 @@ main {
 .text-p {
     color: #7f7f7f;
     line-height: 25px;
+    font-size: 15px;
+    font-weight: 320;
 }
 .website-img {
     object-fit: contain;
@@ -230,12 +241,13 @@ main {
     border-top: 1px solid #999999;
     text-align: center;
     margin: 70px 0 10px 0;
+    
 }
 .center-title-p{
     text-align: center;
     color: #999999;
     font-size: 15px;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 20px 0;
     line-height: 25px;
     font-weight: 320;
     
@@ -271,6 +283,8 @@ main {
 #see-why-dogs-love-us-h2 {
     text-align: center;
     margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 650;
 }
 #badges-img {
     object-fit: contain;
@@ -317,6 +331,7 @@ main {
 }
 #try-barky-today-h2 {
     margin: 70px 0 10px 0;
+    
 }
 .app-img {
     object-fit: contain;
@@ -360,6 +375,10 @@ li, h4 {
 .link-footer:hover {
     text-decoration: underline;
 }
+.h2-text {
+    font-size: 36px;
+    font-weight: 650;
+}
 
 @media (max-width: 600px) {
     body {
@@ -378,16 +397,13 @@ li, h4 {
     main {
         max-width: 570px;
     }
-    #inside-container {
-        text-align: center;
-        width: 550px;
-    }
-    .company-logo-img {
-        margin-left: 30px;
 
+    #top {
+        gap: 31px;
     }
-    #capgemini-right {
-        margin-left: 30px;
+    #bottom {
+        padding-top: 30px;
+        gap: 31px
     }
     #teams-hero-container {
         display: block;
@@ -412,6 +428,10 @@ li, h4 {
     #e-p-d-container {
         display: block;
     }
+    .center-title-p {
+        width: 500px;
+        margin: 0 auto 20px auto;
+    }
     #product {
         border-left: none;
         border-right: none;
@@ -428,13 +448,18 @@ li, h4 {
         margin: 30px;
         border-right: none;
     }
-    
     #footer-container {
         grid-template-columns: 1fr 1fr ;
         
     }
     #logos {
         grid-area: 1/ 1 /2/ 3;
+    }
+    .app-img {
+        object-fit: contain;
+        width: 20px;
+        height: 20px;
+
     }
     #we-do-not{
         margin-top: 30px;
