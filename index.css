@@ -70,7 +70,6 @@ span {
     color: #050505;
     padding: 7px;
 }
-
 #log-in {
     padding-left: 15px;
     border-left: solid 1px #e5e5e5;
@@ -94,12 +93,10 @@ main {
 .teams-hero-box {
     flex-grow: 1;
     flex-basis: 0;
-
 }
 #teams-hero-img {
     object-fit: contain;
     width: 100%;
-
 }
 #teams-hero-container {
     display: flex;
@@ -107,7 +104,6 @@ main {
     margin-top: 150px;
     padding-bottom: 100px;
     border-bottom: 1px solid #999999;
-    
 }
 #teams-hero-h1 {
     font-size: 53px;
@@ -120,7 +116,6 @@ main {
     font-weight: 400;
     line-height: 25px;
     margin-top: 0;
-    
 }
 #company-logo-container {
     padding-top: 15px;
@@ -151,7 +146,6 @@ main {
     font-size: 36px;
     font-weight: 650;
     margin: 0;
-    
 }
 .text-p {
     color: #7f7f7f;
@@ -165,7 +159,6 @@ main {
     width: 100%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     margin-top: 35px;
-
 }
 .author-text {
     font-size: 40px;
@@ -176,7 +169,6 @@ main {
 .face {
     object-fit: contain;
     width: 50px;
-
 }
 .face-container {
     display: flex;
@@ -186,7 +178,6 @@ main {
 .author-name{
     margin: 0;
     font-weight: 550;
-
 }
 .author-p {
     margin: 0;
@@ -210,7 +201,6 @@ main {
     margin: 60px auto 0 auto;
     padding: 20px;
     width: 500px;
-
 }
 .features-container {
     display: flex;
@@ -227,7 +217,6 @@ main {
 #barky-for-teams {
     font-weight: 400;
     color: #050505;
-
 }
 #no-border {
     display: flex;
@@ -241,7 +230,6 @@ main {
     border-top: 1px solid #999999;
     text-align: center;
     margin: 70px 0 10px 0;
-    
 }
 .center-title-p{
     text-align: center;
@@ -250,7 +238,6 @@ main {
     margin: 10px 0 20px 0;
     line-height: 25px;
     font-weight: 320;
-    
 }
 #e-p-d-container {
     display: flex;
@@ -313,17 +300,14 @@ main {
     font-size: 14px;
     color: #999999;
     margin: 5px 0 0 0;
-
 }
 .border-box {
     border-right: 1px solid #999999;
 }
-
 #try-barky {
     text-align: center;
     margin-bottom: 100px;
 }
-
 #get-started-for-free-p {
     color: #999999;
     font-size: 15px;
@@ -331,7 +315,6 @@ main {
 }
 #try-barky-today-h2 {
     margin: 70px 0 10px 0;
-    
 }
 .app-img {
     object-fit: contain;
@@ -346,7 +329,6 @@ main {
     width: 160px;
     height: 75px;
 }
-
 #footer-container {
     max-width: 1200px;
     margin: 0 auto 0 auto;
@@ -379,7 +361,6 @@ li, h4 {
     font-size: 36px;
     font-weight: 650;
 }
-
 @media (max-width: 600px) {
     body {
         overflow-x: hidden;
@@ -397,7 +378,6 @@ li, h4 {
     main {
         max-width: 570px;
     }
-
     #top {
         gap: 31px;
     }
@@ -417,7 +397,6 @@ li, h4 {
     }
     .title-h2 {
         text-align: center;
-
     }
     .text-p {
         text-align: center;
@@ -450,7 +429,6 @@ li, h4 {
     }
     #footer-container {
         grid-template-columns: 1fr 1fr ;
-        
     }
     #logos {
         grid-area: 1/ 1 /2/ 3;
@@ -459,11 +437,9 @@ li, h4 {
         object-fit: contain;
         width: 20px;
         height: 20px;
-
     }
     #we-do-not{
         margin-top: 30px;
 
     }
-
 }
